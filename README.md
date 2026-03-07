@@ -1,10 +1,11 @@
-# Exploratory Data Analysis - Titanic Dataset
+# Exploratory Data Analysis - Titanic & Train Datasets
 
 ## Overview
-This repository contains a comprehensive exploratory data analysis (EDA) of the famous Titanic dataset using Python data science libraries. The analysis systematically explores the Titanic passenger dataset, examining survival patterns and relationships between passenger characteristics and survival outcomes.
+This repository contains comprehensive exploratory data analysis (EDA) of two datasets using Python data science libraries. The analyses systematically explore passenger datasets, examining patterns and relationships between various characteristics.
 
 ## Files
-- **EDA-Titanic.ipynb** - Main Jupyter notebook containing the complete analysis
+- **EDA-Titanic.ipynb** - Jupyter notebook containing complete analysis of the Titanic dataset
+- **EDA-Train.ipynb** - Jupyter notebook containing complete analysis of the Train dataset
 
 ## Libraries Used
 - **pandas** (v2.3.3) - Data manipulation and analysis
@@ -12,8 +13,12 @@ This repository contains a comprehensive exploratory data analysis (EDA) of the 
 - **matplotlib** (v3.10.6) - Data visualization
 - **seaborn** (v0.13.2) - Statistical data visualization
 
+---
+
+# EDA - Titanic Dataset
+
 ## Dataset Information
-The dataset contains **891 passenger records** with **15 columns** including:
+The Titanic dataset contains **891 passenger records** with **15 columns** including:
 
 ### Columns:
 - **survived** - Target variable (0 = Did not survive, 1 = Survived)
@@ -69,8 +74,40 @@ The dataset contains **891 passenger records** with **15 columns** including:
 6. Data aggregation and groupby operations
 7. Statistical summaries
 
+---
+
+# EDA - Train Dataset
+
+## Dataset Information
+The Train dataset contains comprehensive train passenger records with multiple features for analysis.
+
+### Key Features:
+- Passenger demographics (age, gender, class)
+- Journey details (departure, arrival, destination)
+- Ticket information (fare, class, seat)
+- Additional metadata for comprehensive analysis
+
+## Analysis Sections Covered
+1. Data loading and library imports
+2. Dataset overview (head, tail, info, describe)
+3. Data types and structure examination
+4. Univariate analysis (value counts and distributions)
+5. Feature relationships and correlations
+6. Data aggregation and groupby operations
+7. Statistical summaries and insights
+8. Visualization of key patterns and trends
+
+## Key Analysis Areas
+- Passenger demographics distribution
+- Journey patterns and trends
+- Feature correlations and relationships
+- Missing data analysis
+- Univariate and multivariate insights
+
+---
+
 ## How to Use
 1. Clone the repository
 2. Install required libraries: `pip install pandas numpy matplotlib seaborn`
-3. Open `EDA-Titanic.ipynb` in Jupyter Notebook
+3. Open `EDA-Titanic.ipynb` or `EDA-Train.ipynb` in Jupyter Notebook
 4. Run all cells to view the analysis and visualizations
